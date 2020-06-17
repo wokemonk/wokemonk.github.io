@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Typerite</title>
+    <title>Categories - Typerite</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -53,7 +53,7 @@
             <div class="header__top">
                 <div class="header__logo">
                     <a class="site-logo" href="index.html">
-                        <img src="images/monk.svg" alt="Homepage">
+                        <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div>
 
@@ -74,14 +74,14 @@
                 <!-- toggles -->
                 <a href="#0" class="header__search-trigger"></a>
                 <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
+            </div>
 
-            </div> <!-- end header__top -->
-
+            
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
-                    <li class="has-children">
+                    <li><a href="index.html" title="">Home</a></li>
+                    <li class="has-children current">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
                         <li><a href="category.html">Lifestyle</a></li>
@@ -106,7 +106,28 @@
                     <li><a href="page-contact.html" title="">Contact</a></li>
                 </ul> <!-- end header__nav -->
 
-                
+                <ul class="header__social">
+                    <li class="ss-facebook">
+                        <a href="https://facebook.com/">
+                            <span class="screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="ss-twitter">
+                        <a href="#0">
+                            <span class="screen-reader-text">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="ss-dribbble">
+                        <a href="#0">
+                            <span class="screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="ss-behance">
+                        <a href="#0">
+                            <span class="screen-reader-text">Behance</span>
+                        </a>
+                    </li>
+                </ul>
 
             </nav> <!-- end header__nav-wrap -->
 
@@ -115,11 +136,15 @@
         </header> <!-- end s-header -->
 
         <div class="s-content">
+
+            <header class="listing-header">
+                <h1 class="h2">Category: Design</h1>
+            </header>
             
             <div class="masonry-wrap">
 
                 <div class="masonry">
-    
+
                     <div class="grid-sizer"></div>
     
                     <article class="masonry__brick entry format-standard animate-this">
@@ -299,7 +324,7 @@
                         <div class="entry__thumb">
                             <a href="single-audio.html" class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/guitarist-600.jpg" 
-                                     srcset="images/thumbs/masonry/guitarist-600.jpg 1x, images/thumbs/masonry/guitarist-1200.jpg 2x" alt="">
+                                        srcset="images/thumbs/masonry/guitarist-600.jpg 1x, images/thumbs/masonry/guitarist-1200.jpg 2x" alt="">
                             </a>
                         </div>
     
@@ -359,7 +384,7 @@
                         <div class="entry__thumb video-image">
                             <a href="https://player.vimeo.com/video/117310401?color=339989&title=0&byline=0&portrait=0" data-lity class="entry__thumb-link">
                                 <img src="images/thumbs/masonry/cookies-600.jpg" 
-                                     srcset="images/thumbs/masonry/cookies-600.jpg 1x, images/thumbs/masonry/cookies-1200.jpg 2x" alt="">
+                                        srcset="images/thumbs/masonry/cookies-600.jpg 1x, images/thumbs/masonry/cookies-1200.jpg 2x" alt="">
                             </a>
                         </div>
         
@@ -435,15 +460,15 @@
                             <div class="slider__slides">
                                 <div class="slider__slide">
                                     <img src="images/thumbs/masonry/gallery/slide-1-600.jpg" 
-                                         srcset="images/thumbs/masonry/gallery/slide-1-600.jpg 1x, images/thumbs/masonry/gallery/slide-1-1200.jpg 2x" alt=""> 
+                                            srcset="images/thumbs/masonry/gallery/slide-1-600.jpg 1x, images/thumbs/masonry/gallery/slide-1-1200.jpg 2x" alt=""> 
                                 </div>
                                 <div class="slider__slide">
                                     <img src="images/thumbs/masonry/gallery/slide-2-600.jpg" 
-                                         srcset="images/thumbs/masonry/gallery/slide-2-600.jpg 1x, images/thumbs/masonry/gallery/slide-2-1200.jpg 2x" alt=""> 
+                                            srcset="images/thumbs/masonry/gallery/slide-2-600.jpg 1x, images/thumbs/masonry/gallery/slide-2-1200.jpg 2x" alt=""> 
                                 </div>
                                 <div class="slider__slide">
                                     <img src="images/thumbs/masonry/gallery/slide-3-600.jpg" 
-                                         srcset="images/thumbs/masonry/gallery/slide-3-600.jpg 1x, images/thumbs/masonry/gallery/slide-3-1200.jpg 2x" alt="">  
+                                            srcset="images/thumbs/masonry/gallery/slide-3-600.jpg 1x, images/thumbs/masonry/gallery/slide-3-1200.jpg 2x" alt="">  
                                 </div>
                             </div>
                         </div>
@@ -558,7 +583,14 @@
         <!-- footer
         ================================================== -->
         <footer class="s-footer">
-            
+            <div class="row">
+                <div class="column large-full footer__content">
+                    <div class="footer__copyright">
+                        <span>© Copyright Typerite 2019</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                    </div>
+                </div>
+            </div>
 
             <div class="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"></a>
